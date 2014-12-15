@@ -53,7 +53,12 @@ body {
     } // This closes out the ul
   } //This closes out the footer
 
+  .sidebar {
+    @include span-column(3);
+  }
+
   .main {
+    @include span-column(9);
     margin: 50px auto 0 auto;
     font-size: 18px;
     font-weight: 200;
