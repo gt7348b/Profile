@@ -22,19 +22,31 @@
     <!-- endbuild -->
   </head>
   <body>
+    <div class='container'>
+      <div class='header'>
+        <a href='#/'><h1>John Crocker</h1></a>
+      </div>
 
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Normalize CSS</li>
-        <li>Sass</li>
-        <li>Modernizr</li>
-        <li>Bourbon & Neat</li>
-        <li>UnderscoreJS</li>
-      </ul>
-      <p>Don't forget to update your readme file!!</p>
+      <div class='sidebar'>
+      </div>
+
+      <div class="main">
+        <a href='#/about'><button>About</button></a>
+        <a href='#/portfolio'><button>Portfolio of Projects</button></a>
+        <a href='#/library'><button>Library</button></a>
+        <div ng-view class='main'>
+        </div>
+      </div>
+
+      <div class='footer'>
+        <ul class='links'>
+          <li><a href='http://en.wikipedia.org/wiki/PRISM_(surveillance_program)'>Privacy Policy</a></li>
+          <li><a href='https://tosdr.org/'>Terms of Service</a></li>
+          <li><a href='http://www.fta.dot.gov'>Federal Transit Administration</a></li>
+          <li><a href='http://www.google.com'>Help</a></li>
+          <li><a href='http://www.peachpundit.com'>Blog</a></li>
+        </ul>
+      </div>
     </div>
 
     <!-- build:js scripts/vendor.js -->
