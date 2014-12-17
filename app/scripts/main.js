@@ -13,7 +13,7 @@ console.log('Roscoe plays peekaboo');
 
       $routeProvider.when('/portfolio', {
         templateUrl: 'templates/portfolio.html',
-        controller: 'MainController'
+        controller: 'PortfolioController'
       });
 
       $routeProvider.when('/library', {
