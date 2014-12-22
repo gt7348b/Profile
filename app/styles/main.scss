@@ -54,16 +54,16 @@ body {
   } //This closes out the footer
 
   .sidebar {
-    @include span-column(3);
+    //@include span-column(3);
   }
 
   .main {
-    @include span-column(9);
+    //@include span-column(9);
     margin: 50px auto 0 auto;
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
-    background-color: black;
+    background-color: white;
     border-radius: 6px;
     padding: 60px;
 
@@ -79,8 +79,12 @@ body {
       border-radius: .3em;
     }
 
-    img {
+    .title_img{
       max-width: 1em;
+
+      img{
+        size: 100%;
+      }
     }
   }
 }
