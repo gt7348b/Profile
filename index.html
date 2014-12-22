@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Profile</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="styles/vendor.css">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="scripts/vendor/modernizr.js"></script>
+  </head>
+  <body ng-app='Portfolio'>
+    <div class='container'>
+      <div class='header'>
+        <a href='#/'><h1>JTC Analytics</h1></a>
+        <h2>Helping you make Informed Decisions</h2>
+      </div>
+
+      <div class='sidebar'>
+        <a href='#/about'><button>About</button></a>
+        <a href='#/portfolio'><button>Portfolio of Projects</button></a>
+        <a href='#/library'><button>Library</button></a>
+      </div>
+
+      <div ng-view class='main'>
+      </div>
+
+      <div class='footer'>
+        <ul class='links'>
+          <li><a href='http://en.wikipedia.org/wiki/PRISM_(surveillance_program)'>Privacy Policy</a></li>
+          <li><a href='https://tosdr.org/'>Terms of Service</a></li>
+          <li><a href='http://www.fta.dot.gov'>Federal Transit Administration</a></li>
+          <li><a href='http://www.google.com'>Help</a></li>
+          <li><a href='http://www.peachpundit.com'>Blog</a></li>
+        </ul>
+        <ul class='contact'>
+          <li><h5>Contact:</h5></li>
+          <li><a href='mailto:johnniecrocker@yahoo.com?subject=I want to talk about data!'>Email</a></li>
+          <li> Phone: <a href='tel:4049343875' >+1-404-934-3875</a></li>
+          <li><a href='https://github.com/gt7348b/' target='_blank'>Github</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="scripts/vendor.js"></script>
+
+        <script src="scripts/main.js"></script>
+</body>
+</html>
