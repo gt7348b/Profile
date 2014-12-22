@@ -30,7 +30,7 @@ gulp.task('html', ['styles'], function () {
 });
 
 gulp.task('ng-templates', function () {
-  return gulp.src('app/scripts/**/*.html')
+  return gulp.src('app/**/*.html')
   .pipe(gulp.dest('dist/scripts'));
 });
 
