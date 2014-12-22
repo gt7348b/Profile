@@ -30,8 +30,8 @@ gulp.task('html', ['styles'], function () {
 });
 
 gulp.task('ng-templates', function () {
-  return gulp.src('app/**/*.html')
-  .pipe(gulp.dest('dist/scripts'));
+  return gulp.src('app/templates/*.html')
+  .pipe(gulp.dest('dist/templates'));
 });
 
 gulp.task('images', function () {
