@@ -34,9 +34,9 @@ gulp.task('ng-templates', function () {
   .pipe(gulp.dest('dist/templates'));
 });
 
-gulp.task('library', function(){
-  return gulp.src('app/library/*.*')
-    .pipe(gulp.dest('dist/library'));
+gulp.task('other-files', function(){
+  return gulp.src('app/**/*.*')
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('images', function () {
