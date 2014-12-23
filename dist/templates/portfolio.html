@@ -1,0 +1,45 @@
+This is the portfolio page
+
+<div class='project'>
+  Projects will go in here
+  {{ name }}
+</div>
+
+<div class='repo_item'>
+    <div class= 'repoleft'>
+      <li><h2><a href='http://gt7348b.github.io/A17---Blog/#start' target='_blank'>J & J's Blog</a></h2></li>
+      <li><p><%= repo_desc %></p></li>
+      <li><h3>Updated <%= repo_update %></h3></li>
+    </div>
+  <div class='reporight'>
+    <li class='language'><%= repo_lang %></li>
+    <li><span class="octicon octicon-star"></span> <%= repo_star %></li>
+    <li><span class="octicon octicon-git-branch"></span> <%= repo_fork %></li>
+  </div>
+</div>
+
+<div class='repo_item'>
+  <div class= 'repoleft'>
+    <li><h2><a href='<% link %>'>Exploring the National Transit Database</a></h2></li>
+    <li><p><%= repo_desc %></p></li>
+    <li><h3>Updated <%= repo_update %></h3></li>
+  </div>
+  <div class='reporight'>
+    <li class='language'><%= repo_lang %></li>
+    <li><span class="octicon octicon-star"></span> <%= repo_star %></li>
+    <li><span class="octicon octicon-git-branch"></span> <%= repo_fork %></li>
+  </div>
+</div>
+
+<div class='repo_item'>
+  <div class= 'repoleft'>
+    <li><h2><a href='<% link %>'>Music</a></h2></li>
+    <li><p><%= repo_desc %></p></li>
+    <li><h3>Updated <%= repo_update %></h3></li>
+  </div>
+  <div class='reporight'>
+    <li class='language'><%= repo_lang %></li>
+    <li><span class="octicon octicon-star"></span> <%= repo_star %></li>
+    <li><span class="octicon octicon-git-branch"></span> <%= repo_fork %></li>
+  </div>
+</div>
