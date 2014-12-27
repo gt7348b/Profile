@@ -86,5 +86,20 @@ body {
         size: 100%;
       }
     }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .project {
+      border-style: solid;
+      border-radius: 1.5em;
+      @include margin (2em null null null);
+
+      .proleft{
+        @include padding(1em 1em 1em 1em);
+      }
+    }
   }
 }
