@@ -99,6 +99,11 @@ body {
 
       .proleft{
         @include padding(1em 1em 1em 1em);
+
+        a {
+          font-family: $lucida-grande;
+          
+        }
       }
     }
   }
