@@ -34,6 +34,10 @@ body {
       color: white;
     }
 
+    h2 {
+      color: gray;
+      font-style: italic;
+    }
   }
   .footer {
     background-color: white;
@@ -55,6 +59,13 @@ body {
 
   .sidebar {
     //@include span-column(3);
+
+    button {
+      color: black;
+      border-radius: .3em;
+      background-color: #776666;
+
+    }
   }
 
   .main {
@@ -84,6 +95,27 @@ body {
 
       img{
         size: 100%;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .project {
+      border-style: solid;
+      border-radius: 1.5em;
+      @include margin (2em null null null);
+
+      .proleft{
+        @include padding(1em 1em 1em 1em);
+
+        a {
+          font-family: $lucida-grande;
+          font-style: italic;
+          color: #6092b5;
+        }
       }
     }
   }
